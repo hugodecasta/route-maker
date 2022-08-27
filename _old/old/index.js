@@ -7,7 +7,7 @@ const dist = p1.distanceTo(p2)
 
 const divPoints = 5
 
-const minDist = dist / divPoints
+const minDist = dist / (divPoints-4)
 let startPoint = p1
 let startAzimut = azimut
 const pointsData = [
